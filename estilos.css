@@ -1,54 +1,69 @@
+
 header{
-    background-color:#607d8b;
+    background-color: #00b8d4;
 }
-header a{
-    color: white;
-    text-align: right;
-    padding: 5px;
-}
+
 
 header h1{
-    color: white;
+    color:white;
+
+}
+section h3{
+    color: #00c853;
+    margin-left: 20px;
 }
 
+section a {
+    
+    margin-left: 20px;
+}
+
+section h4{
+
+    color:  #757575;
+    padding-top: 100px;
+    text-align: center;
+}
+
+
+
+
 main{
+    display:block;
     margin-top: 30px;
+    border-bottom: black solid 5px;
 }
 main p{
     text-align: justify;
-}
+    margin-left: 20px;
+    display:block;
 
-main aside{
-    border-left: black solid 2px;
     
 }
 
-main  a{
-
-    margin-left: 10px;
-}
-
 .sol{
- margin-top:30px;
-
-
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 90px;
+    
 }
-footer{
-padding-top: 30px;
+
+footer {
+ padding-top: 50px;   
 background-color: #b0bec5;
 font-size: 24px;
 text-align: center;
 height: 300px;
-color: black;
+
 }
 
-@media screen and ( max-width:768px){
-    main aside a{
-        display:inline-block
-       
-}
-}
 
-section  p a{
-    justify-content: space-between;
+
+@media screen and (max-width:768px){
+    main{
+        display: inline-block;
+        
+    }
+   
+
 }
